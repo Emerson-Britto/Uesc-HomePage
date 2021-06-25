@@ -1,0 +1,52 @@
+.containerBooks {
+    background-color: rgb(230, 230, 230);
+    height: 100%;
+    width: 81%;
+    border-radius: 9px;
+    box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.281);
+}
+
+.boxTitle {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px 25px 25px;
+}
+
+.listBooks {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#titleEditora {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.6em;
+    margin-left: 10px;
+}
+
+#btn_plusViewBooks {
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+    font-size: 1.1em;
+    margin-top: 5px;
+    margin-left: 16px;
+    outline: none;
+    transition: 600ms;
+}
+
+#btn_plusViewBooks:hover {
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.listBooks > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 20%;
+    height: 90%;
+    color: black;
+}

@@ -1,0 +1,29 @@
+.mapaContainer {
+    background: url(../../assets/img/previewMap.png) no-repeat center;
+    background-size: 116%;
+    box-shadow: 1px 3px 25px rgba(0, 0, 0, 0.486), inset 0px -60px 70px black;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 39vw;
+    height: 61vh;
+    margin-top: 80px;
+    transition: 600ms all;
+}
+
+#ancoraMapa {
+    width: 39%;
+    max-height: 0%;
+    background-color: red;
+}
+
+.mapaContainer:hover {
+    cursor: pointer;
+    background-size: 118%;
+}
+
+#titleMap {
+    color: white;
+    font-size: 1.6em;
+    font-family: 'Oswald', sans-serif;
+    margin: 68% 0% 0% 4%; 
+}

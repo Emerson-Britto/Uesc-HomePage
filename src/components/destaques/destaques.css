@@ -1,0 +1,72 @@
+#titleGridTrends {
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 35px;
+    margin-right: 2vw;
+    margin-bottom: 15px;
+}
+
+.gridTrends {
+    background-color: transparent;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    gap: 7px 5px;
+    width: 39vw;
+    height: 60vh;
+    margin-right: 3vw;
+}
+
+.trends {
+    box-shadow: inset 0px 40px 70px black;
+    transition: 600ms;
+    border-radius: 7px;
+}
+
+.trends:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.377), inset 0px 40px 70px black;;
+}
+
+#trend1 {
+    background: url(http://g1.globo.com/Noticias/Vestibular/foto/0,,20853784-EX,00.jpg) no-repeat center;
+    background-size: 120%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+#trend2 {
+    background: url(https://www.gov.br/pt-br/noticias/educacao-e-pesquisa/2021/04/inscricoes-para-o-sisu-comecam-nesta-terca-feira-6/fa4a2706-2270-4956-ae72-e8aabf02f44a.jpeg/@@images/c948864a-bc82-4af6-a54e-3c7909f01a47.jpeg) no-repeat center;
+    background-position-y: 22%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+#trend3 {
+    background: url(https://www.poliambulanza.it/uploads/2015-12-7/950-480/OTT_3632-1.jpg) no-repeat center;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+#trend4 {
+    background: url(../../assets/img/ourStory.jpg) no-repeat center;
+    background-size: 122%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.titleArticle {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin: 6px 0px 4px 6px;
+}
+
+.btn_plusInfor {
+    color: rgb(209, 209, 209);
+    margin: 0px 0px 0px 6px;
+}

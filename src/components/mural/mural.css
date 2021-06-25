@@ -1,0 +1,62 @@
+.muralUesc {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5d_HCg7FOQsogBPw2Iak8KTZe9it78K08V4G1oNq33-bekK7gJ1FcZ7ydsOAlALXI7j4&usqp=CAU);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.377);
+    width: 56vw;
+    height: 90%;
+}
+
+.papersNotes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titleMural{
+    font-family: cursive;
+    margin-bottom: 5px;
+}
+
+.subTitleMural {
+    margin-bottom: 5px;
+}
+
+.subTitleMura2 {
+    width: 75%;
+}
+
+#titleMural3 {
+    position: relative;
+    left:-6%;
+}
+
+.subTitleMura3 {
+    position: relative;
+    left:-6%;    
+}
+
+#note1 {
+    background: url(../../assets/img/note1.png) no-repeat center;
+    background-size: 110%;
+    height: 50%;
+    width: 50%;
+}
+
+#note2 {
+    background: url(../../assets/img/note2.png) no-repeat center;
+    background-size: 110%;
+    height: 50%;
+    width: 50%;
+}
+
+#note3 {
+    background: url(../../assets/img/note3.png) no-repeat center;
+    background-size: 110%;
+    height: 53%;
+    width: 50%;
+}

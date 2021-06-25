@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+:root {
+  --primaria: #ebebeb;
+  --title: #000;
+  --titleWhite: rgb(255, 255, 255);
+  --secundaria: #373f51;
+  --secundaria-ativa: #cccccc;
+  --fundo: #ffffff;
+  --fundo-detalhes: #ececec;
+}
+
+.dest_and_map {
+  background: var(--fundo);
+  display: flex;
+  justify-content: center;
+  height: 78vh;
+  border-bottom: 1px solid rgb(255 255 255 / 10%);
+}
+
+.mural_and_edital {
+  background-color: var(--primaria);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.centralizeContainer { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  height: 55vh
+}
+
+.box_uesctv {
+  background-color: var(--fundo);
+}
+
+.editoraUesc {
+  background-color: var(--fundo);
+  height: 68vh;
+}
+
+
+::-webkit-scrollbar-track {
+  background-color: rgb(29, 29, 29);
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 5px;
+  background: black;
+}
+::-webkit-scrollbar-thumb {
+  background: #666666;
+}
